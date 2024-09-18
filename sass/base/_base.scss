@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; // 1rem = 10px
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 3rem;
+  background-color: #222;
+}
+
+// FONTS
+@font-face {
+  font-family: "superline-italic";
+  src: url(../../assets/fonts/superline-italic-webfont.woff) format("woff");
+}
+
+@font-face {
+  font-family: "superline-line";
+  src: url(../../assets/fonts/superline-line-webfont.woff) format("woff");
+}
+
+@font-face {
+  font-family: "superline-line-italic";
+  src: url(../../assets/fonts/superline-lineitalic-webfont.woff) format("woff");
+}
+
+@font-face {
+  font-family: "superline-outlineitalic";
+  src: url(../../assets/fonts/superline-outlineitalic-webfont.woff)
+    format("woff");
+}
+
+@font-face {
+  font-family: "superline-regular";
+  src: url(../../assets/fonts/superline-regular-webfont.woff) format("woff");
+}
