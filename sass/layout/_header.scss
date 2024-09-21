@@ -35,9 +35,11 @@
         height: 100%;
         object-fit: cover;
         z-index: -1;
+        transform: translate3d(0, 0, 0);
       }
       &__text {
         position: absolute;
+        transform: translate3d(0, 0, 0);
         top: 0;
         left: 0;
         width: 100%;

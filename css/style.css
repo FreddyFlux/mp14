@@ -409,9 +409,11 @@ body {
   height: 100%;
   object-fit: cover;
   z-index: -1;
+  transform: translate3d(0, 0, 0);
 }
 .header__video-box__bg-video__text {
   position: absolute;
+  transform: translate3d(0, 0, 0);
   top: 0;
   left: 0;
   width: 100%;
