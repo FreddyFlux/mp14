@@ -17,34 +17,92 @@
 
     <link rel="stylesheet" href="css/style.css" />
 
+    <script defer src="js/script.js"></script>
+
     <title>MP14 &dash; Sport Summer Camps</title>
   </head>
 
   <body>
-    <div class="header">
-      <div class="bg-video">
-        <h1 class="heading-primary">MP 14</h1>
-        <video class="bg-video__content" autoplay muted loop>
-          <source
-            src="/assets/video/volleyball-coach-video.mp4"
-            type="video/mp4"
-          />
-        </video>
-        <svg class="banner">
-          <mask id="mask">
-            <rect class="rect-top"></rect>
-            <text
-              class="header__test"
-              dominant-baseline="central"
-              x="20%"
-              y="50%"
-            >
-              Summer Camp
-            </text>
-          </mask>
-          <rect id="mask-bg"></rect>
-        </svg>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+      <div class="navigation__background navigation__background--inactive">
+        &nbsp;
       </div>
+
+      <nav class="navigation__nav navigation__nav--inactive">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>01 &dash;</span>About Us</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>02 &dash;</span>MP14 Camps</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>03 &dash;</span>All Camps</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>04 &dash;</span>Info</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>05 &dash;</span>News </a>
+          </li>
+        </ul>
+      </nav>
     </div>
+
+    <header class="header">
+      <div class="header__logo-box">
+        <img
+          src="./assets/img/mp-logo-orange.png"
+          alt="Logo"
+          class="header__logo"
+        />
+      </div>
+
+      <div class="header__video-box">
+        <div class="header__video-box__bg-video">
+          <video
+            class="header__video-box__bg-video__content"
+            autoplay
+            muted
+            loop
+          >
+            <source
+              src="/assets/video/volleyball-coach-video.mp4"
+              type="video/mp4"
+            />
+          </video>
+
+          <span
+            class="header__video-box__bg-video__text__top heading-primary__sub"
+            >Great sports memories</span
+          >
+
+          <h1
+            class="header__video-box__bg-video__text header__video-box__bg-video__text__center heading-primary"
+          >
+            MP14 Summer camps
+          </h1>
+        </div>
+
+        <div class="header__video-box__button-box">
+          <a
+            href="#card"
+            class="header__video-box__btn btn btn--outline btn--animated"
+            >Discover our camps</a
+          >
+        </div>
+      </div>
+    </header>
+    <main class="section-about"></main>
   </body>
 </html>

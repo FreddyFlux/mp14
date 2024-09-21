@@ -1,5 +1,13 @@
 @import "shortcuts/variables";
+@import "shortcuts/mixins";
 
 @import "base/base";
+@import "base/animations";
+@import "base/typography";
+
+@import "components/button";
 
 @import "layout/navigation";
+@import "layout/header";
+
+@import "pages/home";

@@ -1,0 +1,16 @@
+.navigation__link {
+  &:link,
+  &:visited {
+    font-family: "superline-regular";
+  }
+}
+
+.heading-primary {
+  font-family: "superline-regular";
+  letter-spacing: 0.5rem;
+
+  &__sub {
+    font-family: "superline-line";
+    letter-spacing: 0.9rem;
+  }
+}
