@@ -3,8 +3,8 @@
   &__logo-box {
     z-index: 50;
     position: absolute;
-    top: 5rem;
-    left: 5rem;
+    top: 4rem;
+    left: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,6 +12,13 @@
 
   &__logo {
     height: 12rem;
+
+    @include respond(tab-port) {
+      height: 10rem;
+    }
+    @include respond(phone) {
+      height: 8rem;
+    }
   }
 
   &__video-box {
@@ -77,6 +84,15 @@
           left: 50%;
           transform: translate(-50%, -50%);
           line-height: 100vh;
+          @include respond(tab-port) {
+            font-size: 4vw;
+            letter-spacing: 0.4rem;
+          }
+
+          @include respond(phone) {
+            font-size: 2.5vw;
+            letter-spacing: 0.2rem;
+          }
         }
       }
     }
