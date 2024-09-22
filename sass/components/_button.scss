@@ -33,9 +33,18 @@
     box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
   }
 
-  &--white {
-    background-color: $color-tertiary-dark-2;
-    color: $color-secondary-light-2;
+  &--secondary {
+    background-color: $color-secondary-dark-1;
+    color: $color-white;
+
+    &::after {
+      background-color: $color-secondary-dark-2;
+    }
+  }
+
+  &--tertiary {
+    background-color: $color-tertiary;
+    color: $color-white;
 
     &::after {
       background-color: $color-tertiary-dark-2;

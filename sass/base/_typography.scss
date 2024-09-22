@@ -12,5 +12,13 @@
   &__sub {
     font-family: "superline-line";
     letter-spacing: 0.9rem;
+    color: $color-secondary-dark-2;
   }
+}
+
+.heading-secondary {
+  font-family: "superline-regular";
+  font-size: 12rem;
+  letter-spacing: 0.5rem;
+  color: $color-tertiary;
 }
