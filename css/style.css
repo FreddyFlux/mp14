@@ -127,14 +127,14 @@ body {
 .heading-primary__sub {
   font-family: "superline-line";
   letter-spacing: 0.9rem;
-  color: #839bc3;
+  color: #a0fc2a;
 }
 
 .heading-secondary {
   font-family: "superline-regular";
   font-size: 12rem;
   letter-spacing: 0.5rem;
-  color: #ff8019;
+  color: #a0fc2a;
 }
 
 .container {
@@ -169,15 +169,15 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 .btn--secondary {
-  background-color: #94afdc;
-  color: #fff;
+  background-color: #a0fc2a;
+  color: #000;
 }
 .btn--secondary::after {
-  background-color: #839bc3;
+  background-color: #a0fc2a;
 }
 .btn--tertiary {
   background-color: #ff8019;
-  color: #fff;
+  color: #000;
 }
 .btn--tertiary::after {
   background-color: #cc6614;
@@ -191,15 +191,15 @@ body {
 }
 .btn--outline:link, .btn--outline:visited, .btn--outline:active, .btn--outline:focus {
   font-size: 2.4rem;
-  color: #839bc3;
-  box-shadow: inset 0 0 0 2px #c8daf8;
+  color: #a0fc2a;
+  box-shadow: inset 0 0 0 2px #a0fc2a;
 }
 .btn--outline:link::after, .btn--outline:visited::after, .btn--outline:active::after, .btn--outline:focus::after {
-  box-shadow: inset 0 4rem 7rem #c8daf8;
+  box-shadow: inset 0 4rem 7rem #a0fc2a;
 }
 .btn--outline:link:hover, .btn--outline:visited:hover, .btn--outline:active:hover, .btn--outline:focus:hover {
   transform: translateY(-3px);
-  box-shadow: inset 0 0 0 2px #c8daf8, 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 0 2px #a0fc2a, 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 .btn--outline:link:hover::after, .btn--outline:visited:hover::after, .btn--outline:active:hover::after, .btn--outline:focus:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
@@ -246,7 +246,7 @@ body {
   display: none;
 }
 .navigation__button {
-  background-color: #fff;
+  background-color: #333;
   height: 7rem;
   width: 7rem;
   position: fixed;
@@ -277,7 +277,7 @@ body {
   position: fixed;
   top: 6.5rem;
   right: 6.5rem;
-  background-image: radial-gradient(#c8daf8, #839bc3);
+  background-image: radial-gradient(#444, #222);
   z-index: 1000;
   transition: transform 0.8s cubic-bezier(0.83, 0, 0.17, 1);
 }
@@ -330,10 +330,10 @@ body {
   font-weight: 300;
   letter-spacing: 0.66rem;
   padding: 1rem 2rem;
-  color: #e67317;
+  color: #a0fc2a;
   text-decoration: none;
   text-transform: uppercase;
-  background-image: linear-gradient(120deg, transparent 0%, transparent 55%, #ffcca3 50%);
+  background-image: linear-gradient(120deg, transparent 0%, transparent 55%, #a0fc2a 50%);
   background-size: 260%;
   transition: all 0.6s;
 }
@@ -343,7 +343,7 @@ body {
 }
 .navigation__link:hover, .navigation__link:active {
   background-position: 100%;
-  color: #839bc3;
+  color: #444;
   transform: translateX(1rem);
 }
 .navigation__checkbox:checked ~ .navigation__background {
@@ -360,7 +360,7 @@ body {
 .navigation__icon, .navigation__icon::before, .navigation__icon::after {
   width: 3rem;
   height: 2px;
-  background-color: #ff8019;
+  background-color: #a0fc2a;
   display: inline-block;
 }
 .navigation__icon::before, .navigation__icon::after {
@@ -449,13 +449,13 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #fff;
-  color: #000;
+  background: #000;
+  color: #777;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
   text-align: center;
   text-transform: uppercase;
-  mix-blend-mode: screen;
+  mix-blend-mode: multiply;
 }
 .header__video-box__bg-video__text__center {
   font-size: 18vw;
@@ -538,7 +538,7 @@ body {
 .camps__box {
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-  background-color: #fff;
+  background-color: #111;
 }
 .camps__box__picture {
   background-size: cover;
@@ -577,14 +577,14 @@ body {
   color: #000;
 }
 .camps__heading-1 {
-  color: #a4c2f4;
+  color: #a0fc2a;
 }
 .camps__heading-2 {
   color: #ff8019;
 }
 .camps__details {
   padding: 3rem;
-  color: #555;
+  color: #777;
 }
 .camps__details ul {
   list-style: none;
@@ -597,10 +597,10 @@ body {
   padding: 1rem;
 }
 .camps__details-1 li:not(:last-child) {
-  border-bottom: 1px solid #c8daf8;
+  border-bottom: 1px solid #a0fc2a;
 }
 .camps__details-2 li:not(:last-child) {
-  border-bottom: 1px solid #ffb375;
+  border-bottom: 1px solid #ff8019;
 }
 .camps__cta {
   display: flex;
@@ -610,14 +610,14 @@ body {
 }
 
 .section-camps {
-  background-color: #b6cef6;
+  background-color: #222;
   padding: 8rem 0 20rem 0;
   margin-top: 10vh;
   transform: skewY(-5deg);
 }
 
 .section-info {
-  background-color: white;
+  background-color: #111;
   height: 100vh;
   margin-top: -10vh;
   -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);

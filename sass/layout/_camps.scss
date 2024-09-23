@@ -10,7 +10,7 @@
   &__box {
     border-radius: 3px;
     box-shadow: $shadow-big;
-    background-color: #fff;
+    background-color: #111;
 
     &__picture {
       background-size: cover;
@@ -51,7 +51,7 @@
     color: #000;
 
     &-1 {
-      color: $color-secondary;
+      color: $color-primary;
     }
     &-2 {
       color: $color-tertiary;
@@ -60,7 +60,7 @@
 
   &__details {
     padding: 3rem;
-    color: #555;
+    color: #777;
     ul {
       list-style: none;
       width: 80%;
@@ -74,12 +74,12 @@
     }
     &-1 {
       li:not(:last-child) {
-        border-bottom: 1px solid $color-secondary-light-2;
+        border-bottom: 1px solid $color-primary;
       }
     }
     &-2 {
       li:not(:last-child) {
-        border-bottom: 1px solid $color-tertiary-light-2;
+        border-bottom: 1px solid $color-tertiary;
       }
     }
   }
