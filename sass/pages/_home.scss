@@ -1,14 +1,15 @@
-.section-camps {
-  background-color: #222;
-  padding: 8rem 0 20rem 0;
-  margin-top: 10vh;
-  transform: skewY(-5deg);
+.section-about {
+  background-color: $color-black;
+  padding: 15rem 0 25rem 0;
+
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  text-align: center;
 }
 
-.section-info {
-  background-color: #111;
-  height: 100vh;
-  margin-top: -10vh;
-  -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
-  clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+.section-camps {
+  background-color: $color-black-dark-2;
+  padding-bottom: 20rem;
+  margin-top: -12vh;
+  transform: skewY(-5deg);
 }

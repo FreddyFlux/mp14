@@ -1,0 +1,59 @@
+.steps {
+  background-color: $color-black-dark-2;
+
+  &__headline {
+    margin: 20vh 0 5rem 0;
+    text-align: center;
+    grid-column: 1 / -1;
+  }
+  &__img-box {
+    display: grid;
+    grid-column: 1 / -1;
+    margin: -18vh 0 2vh 0;
+  }
+
+  &__img {
+    width: 75%;
+    object-fit: cover;
+    filter: grayscale(100%);
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
+    &-1 {
+      -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+      clip-path: polygon(0 5vh, 100% 0, 100% 100%, 0 100%);
+      margin-top: 10rem;
+    }
+  }
+
+  &__step-text-box {
+    margin-top: -10vh;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+
+    &--right {
+      grid-column: 2 / -1;
+    }
+  }
+
+  &__number {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+  }
+
+  &__step-description-box {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__step-headline {
+    display: flex;
+    justify-self: start;
+    align-items: start;
+  }
+}

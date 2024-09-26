@@ -21,4 +21,36 @@
   font-size: 12rem;
   letter-spacing: 0.5rem;
   color: $color-primary;
+
+  &-sub {
+    font-family: "superline-outlineitalic";
+    font-size: 6rem;
+    color: $color-primary;
+    letter-spacing: 0.8rem;
+  }
+}
+
+.heading-tertiary {
+  font-family: "superline-outlineitalic";
+  color: $color-primary;
+  font-size: 6rem;
+  letter-spacing: 0.4rem;
+}
+
+.steps__number {
+  font-family: "superline-outlineitalic";
+  font-size: 24rem;
+  color: $color-primary;
+}
+
+.steps__step-headline {
+  font-family: "superline-regular";
+  color: $color-primary;
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+}
+
+.steps__step-description {
+  color: $color-white;
+  font-size: 1.8rem;
 }

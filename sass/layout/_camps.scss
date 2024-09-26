@@ -1,5 +1,6 @@
 .camps {
   transform: skewY(5deg);
+
   &__headline {
     padding-top: 8rem;
     text-align: center;
@@ -48,7 +49,6 @@
     font-weight: 300;
     text-transform: uppercase;
     text-align: center;
-    color: #000;
 
     &-1 {
       color: $color-primary;
@@ -60,7 +60,7 @@
 
   &__details {
     padding: 3rem;
-    color: #777;
+    color: $color-grey-light-2;
     ul {
       list-style: none;
       width: 80%;

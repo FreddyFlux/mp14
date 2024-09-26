@@ -1,0 +1,30 @@
+.about {
+  &__headline {
+    margin-bottom: 12rem;
+  }
+  &__text-box {
+  }
+
+  &__description {
+    margin-top: 3rem;
+    font-size: 1.6rem;
+    color: $color-grey-light-3;
+  }
+
+  &__link-box {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  &__img-box {
+  }
+
+  &__photo {
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(80%);
+  }
+}
