@@ -30,6 +30,20 @@
   }
 }
 
+.heading-secondary--outline {
+  font-family: "superline-outlineitalic";
+  font-size: 12rem;
+  letter-spacing: 0.5rem;
+  color: $color-primary;
+}
+
+.heading-secondary--outline--orange {
+  font-family: "superline-outlineitalic";
+  font-size: 12rem;
+  letter-spacing: 0.5rem;
+  color: $color-tertiary;
+}
+
 .heading-tertiary {
   font-family: "superline-outlineitalic";
   color: $color-primary;
@@ -43,11 +57,24 @@
   color: $color-primary;
 }
 
+.steps__number--orange {
+  font-family: "superline-outlineitalic";
+  font-size: 24rem;
+  color: $color-tertiary;
+}
+
 .steps__step-headline {
   font-family: "superline-regular";
   color: $color-primary;
   font-size: 3rem;
   letter-spacing: 0.3rem;
+}
+
+.steps__step-headline--orange {
+  font-family: "superline-regular";
+  color: $color-tertiary;
+  font-size: 4rem;
+  letter-spacing: 0.4rem;
 }
 
 .steps__step-description {

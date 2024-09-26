@@ -182,3 +182,37 @@
     transform: rotate(-135deg);
   }
 }
+
+////////////////////////////////////
+/// ORANGE VARIATION NAV SETTINGS
+
+.navigation__link--orange:link,
+.navigation__link--orange:visited {
+  color: $color-tertiary;
+  background-image: linear-gradient(
+    120deg,
+    transparent 0%,
+    transparent 55%,
+    $color-tertiary 50%
+  );
+  &:hover,
+  &:active {
+    background-position: 100%;
+    color: #444;
+    transform: translateX(1rem);
+  }
+}
+
+.navigation__icon--orange {
+  &,
+  &::before,
+  &::after {
+    background-color: $color-tertiary;
+  }
+}
+
+.navigation__checkbox--orange:checked
+  + .navigation____button--orange
+  .navigation____icon--orange {
+  background-color: transparent;
+}

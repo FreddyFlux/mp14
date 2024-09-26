@@ -85,6 +85,24 @@
     }
   }
 
+  //ORANGE OUTLINE BUTTON
+  &--outline-tertiary:link,
+  &--outline-tertiary:visited,
+  &--outline-tertiary:active,
+  &--outline-tertiary:focus {
+    color: $color-tertiary;
+    box-shadow: inset 0 0 0 2px $color-tertiary;
+
+    &::after {
+      box-shadow: inset 0 0 4px rgba($color-tertiary, 1);
+    }
+
+    &:hover {
+      box-shadow: inset 0 0 0 4px $color-tertiary,
+        0 4rem 8rem rgba($color-black, 0.2);
+    }
+  }
+
   &--outline-big:link,
   &--outline-big:visited,
   &--outline-big:active,

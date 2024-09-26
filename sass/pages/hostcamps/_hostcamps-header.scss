@@ -1,4 +1,4 @@
-.mp14-header {
+.mp14-header-orange {
   padding: 12rem 0rem 24rem 0;
   background-color: $color-black-dark-1;
   -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
@@ -9,6 +9,11 @@
     text-align: center;
   }
 
+  &__headline-box .heading-secondary-sub,
+  &__headline-box .heading-secondary {
+    color: $color-tertiary;
+  }
+
   &__text-box {
     display: flex;
     flex-direction: column;
@@ -17,6 +22,7 @@
 
   &__text-box .heading-tertiary {
     text-align: center;
+    color: $color-tertiary;
   }
 
   &__description {

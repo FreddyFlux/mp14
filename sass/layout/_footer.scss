@@ -63,10 +63,6 @@
       transition: all 0.2s;
       padding: 0.2rem 0.4rem;
       border-radius: 2px;
-
-      &-creator {
-        color: $color-black !important;
-      }
     }
 
     &:hover,
@@ -101,5 +97,21 @@
       text-align: center;
       float: none;
     }
+  }
+}
+
+.footer__link--orange:link,
+.footer__link--orange:visited {
+  &:hover,
+  &:active {
+    color: $color-tertiary;
+  }
+}
+
+.footer__copyright-link--orange {
+  color: $color-tertiary;
+  &:hover,
+  &:active {
+    color: $color-tertiary;
   }
 }
