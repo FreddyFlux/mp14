@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.88 62.29">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #484751;
+        stroke-linecap: square;
+        stroke-miterlimit: 10;
+        stroke-width: 2.63px;
+      }
+    </style>
+  </defs>
+  <g id="Icons">
+    <g id="_x31_0">
+      <rect class="cls-1" x="1.32" y="1.32" width="35.25" height="59.65"/>
+      <line class="cls-1" x1="1.32" y1="49.7" x2="30.46" y2="49.7"/>
+      <line class="cls-1" x1="18.2" y1="55.51" x2="19.68" y2="55.51"/>
+      <line class="cls-1" x1="15.74" y1="7.47" x2="22.14" y2="7.47"/>
+    </g>
+  </g>
+</svg>

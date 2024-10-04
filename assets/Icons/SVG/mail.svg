@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.23 48.83">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #484751;
+        stroke-linecap: square;
+        stroke-miterlimit: 10;
+        stroke-width: 2.63px;
+      }
+    </style>
+  </defs>
+  <g id="Icons">
+    <g id="_x37_">
+      <rect class="cls-1" x="1.32" y="1.32" width="61.6" height="46.2"/>
+      <polyline class="cls-1" points="3.59 3.01 32.11 29.1 61.52 2.57"/>
+      <line class="cls-1" x1="21.57" y1="29.1" x2="3.59" y2="45.55"/>
+      <line class="cls-1" x1="60.64" y1="45.55" x2="42.66" y2="29.1"/>
+    </g>
+  </g>
+</svg>

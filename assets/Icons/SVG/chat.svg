@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.63 55">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #484751;
+        stroke-linecap: square;
+        stroke-miterlimit: 10;
+        stroke-width: 2.63px;
+      }
+    </style>
+  </defs>
+  <g id="Icons">
+    <g id="_x35_">
+      <path class="cls-1" d="M50.77,46.16l10.05,6.12-2.16-10.01c6.56-4.32,10.66-10.45,10.66-17.24,0-13.1-15.22-23.72-34-23.72S1.32,11.94,1.32,25.04s15.22,23.72,34,23.72c3.12,0,6.14-.3,9.01-.85"/>
+      <circle class="cls-1" cx="18.56" cy="25.04" r="3.61"/>
+      <circle class="cls-1" cx="35.32" cy="25.04" r="3.61"/>
+      <circle class="cls-1" cx="52.07" cy="25.04" r="3.61"/>
+    </g>
+  </g>
+</svg>

@@ -2,7 +2,8 @@
   padding: 12rem 0rem 24rem 0;
   background-color: $color-black-dark-1;
   -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 110vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  z-index: 999;
 
   &__headline-box {
     margin-bottom: 12rem;

@@ -4,6 +4,12 @@
   row-gap: 9.6rem;
 }
 
+.grid--big-gap {
+  row-gap: 20rem;
+  display: grid;
+  column-gap: 6.4rem;
+}
+
 .grid:not(:last-child) {
   margin-bottom: 9.6rem;
 }
