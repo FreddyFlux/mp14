@@ -1,0 +1,9 @@
+.section-steps {
+  background-color: $color-black-dark-2;
+
+  -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+
+  margin-top: -20vh;
+  margin-bottom: 10vh;
+}

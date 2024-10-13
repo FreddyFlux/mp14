@@ -1,0 +1,41 @@
+.mp14-header {
+  padding: 12rem 0rem 24rem 0;
+  background-color: $color-black-dark-1;
+  -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  z-index: 999;
+
+  &__headline-box {
+    margin-bottom: 12rem;
+    text-align: center;
+  }
+
+  &__text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__text-box .heading-tertiary {
+    text-align: center;
+  }
+
+  &__description {
+    margin-top: 3rem;
+    font-size: 1.6rem;
+    color: $color-grey-light-3;
+  }
+
+  &__photo {
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(66%);
+  }
+
+  &__button-box {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

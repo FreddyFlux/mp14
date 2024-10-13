@@ -7,17 +7,19 @@
 @import "base/utilities";
 
 @import "components/button";
+@import "components/camps";
 
 @import "layout/navigation";
 @import "layout/header";
 @import "layout/grid";
-@import "layout/camps";
 @import "layout/steps";
 @import "layout/footer";
 @import "layout/about";
+@import "layout/mp14-header";
+@import "layout/hostcamps-header";
+@import "layout/all-camps-selection";
 
 @import "pages/home";
-@import "pages/mp14-camps/mp-14";
-@import "pages/mp14-camps/mp14-header";
-@import "pages/hostcamps/hostcamps-header";
-@import "pages/hostcamps/hostcamps";
+@import "pages/mp-14";
+@import "pages/hostcamps";
+@import "pages/all-camps";

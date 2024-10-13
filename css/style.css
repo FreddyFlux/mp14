@@ -35,6 +35,7 @@ Paragraph default1.6
 html {
   font-size: 62.5%;
   font-family: "Raleway";
+  scroll-behavior: smooth;
 }
 @media only screen and (max-width: 75em) {
   html {
@@ -200,6 +201,40 @@ body {
   margin: 0 auto;
 }
 
+.u-center-text {
+  text-align: center !important;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important;
+}
+@media only screen and (max-width: 56.25em) {
+  .u-margin-bottom-medium {
+    margin-bottom: 3rem !important;
+  }
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important;
+}
+@media only screen and (max-width: 56.25em) {
+  .u-margin-bottom-big {
+    margin-bottom: 5rem !important;
+  }
+}
+
+.u-margin-top-big {
+  margin-top: 8rem !important;
+}
+
+.u-margin-top-huge {
+  margin-top: 10rem !important;
+}
+
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -313,6 +348,88 @@ body {
   transform: translateY(0);
 }
 
+.camps {
+  transform: skewY(5deg);
+}
+.camps__headline {
+  padding-top: 8rem;
+  text-align: center;
+  margin-bottom: 6rem;
+  transform: skewY(5deg);
+}
+.camps__box {
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  background-color: #111;
+}
+.camps__box__picture {
+  background-size: cover;
+  height: 23rem;
+  background-blend-mode: screen;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.camps__box__picture-1 {
+  background-image: url(/assets/img/volleyball-indoor-pic.jpg);
+}
+.camps__box__picture-2 {
+  background-image: url(/assets/img/camp-outdoor-pic.jpg);
+  background-position-y: 40%;
+}
+.camps__box--mp14 {
+  transition: transform 0.3s;
+}
+.camps__box--mp14:hover {
+  transform: translateY(-1.5rem) scale(1.03);
+}
+.camps__box--other {
+  transition: transform 0.3s;
+}
+.camps__box--other:hover {
+  transform: translateY(-1.5rem) scale(1.03);
+}
+.camps__heading {
+  margin-top: 2rem;
+  font-size: 2.8rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+.camps__heading-1 {
+  color: #a0fc2a;
+}
+.camps__heading-2 {
+  color: #ff8019;
+}
+.camps__details {
+  padding: 3rem;
+  color: #777;
+}
+.camps__details ul {
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+}
+.camps__details ul li {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.camps__details-1 li:not(:last-child) {
+  border-bottom: 1px solid #a0fc2a;
+}
+.camps__details-2 li:not(:last-child) {
+  border-bottom: 1px solid #ff8019;
+}
+.camps__cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
 .navigation__checkbox {
   display: none;
 }
@@ -365,7 +482,6 @@ body {
   }
 }
 .navigation__background--inactive {
-  display: none;
   transition: transform 0.8s cubic-bezier(0.83, 0, 0.17, 1);
   transform: scale(0);
 }
@@ -373,14 +489,14 @@ body {
   height: 100vh;
   position: fixed;
   top: 0;
-  left: 0;
+  left: 0%;
   z-index: 1500;
-  opacity: 0;
+  opacity: 50%;
   width: 0;
-  transition: all 0.8s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+  transition: all 0.8s cubic-bezier(0.68, -0.6, 0.32, 1.6), displa;
 }
 .navigation__nav--inactive {
-  display: none;
+  left: -50%;
   transition: all 0.8s;
 }
 .navigation__list {
@@ -631,88 +747,6 @@ body {
   align-items: center;
 }
 
-.camps {
-  transform: skewY(5deg);
-}
-.camps__headline {
-  padding-top: 8rem;
-  text-align: center;
-  margin-bottom: 6rem;
-  transform: skewY(5deg);
-}
-.camps__box {
-  border-radius: 3px;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-  background-color: #111;
-}
-.camps__box__picture {
-  background-size: cover;
-  height: 23rem;
-  background-blend-mode: screen;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-}
-.camps__box__picture-1 {
-  background-image: url(/assets/img/volleyball-indoor-pic.jpg);
-}
-.camps__box__picture-2 {
-  background-image: url(/assets/img/camp-outdoor-pic.jpg);
-  background-position-y: 40%;
-}
-.camps__box--mp14 {
-  transition: transform 0.3s;
-}
-.camps__box--mp14:hover {
-  transform: translateY(-1.5rem) scale(1.03);
-}
-.camps__box--other {
-  transition: transform 0.3s;
-}
-.camps__box--other:hover {
-  transform: translateY(-1.5rem) scale(1.03);
-}
-.camps__heading {
-  margin-top: 2rem;
-  font-size: 2.8rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  text-align: center;
-}
-.camps__heading-1 {
-  color: #a0fc2a;
-}
-.camps__heading-2 {
-  color: #ff8019;
-}
-.camps__details {
-  padding: 3rem;
-  color: #777;
-}
-.camps__details ul {
-  list-style: none;
-  width: 80%;
-  margin: 0 auto;
-}
-.camps__details ul li {
-  text-align: center;
-  font-size: 1.5rem;
-  padding: 1rem;
-}
-.camps__details-1 li:not(:last-child) {
-  border-bottom: 1px solid #a0fc2a;
-}
-.camps__details-2 li:not(:last-child) {
-  border-bottom: 1px solid #ff8019;
-}
-.camps__cta {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 4rem;
-}
-
 .steps {
   background-color: #222;
 }
@@ -895,29 +929,6 @@ body {
   filter: grayscale(80%);
 }
 
-.section-about {
-  background-color: #000;
-  padding: 15rem 0 25rem 0;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-  text-align: center;
-}
-
-.section-camps {
-  background-color: #222;
-  padding-bottom: 20rem;
-  margin-top: -12vh;
-  transform: skewY(-5deg);
-}
-
-.section-steps {
-  background-color: #222;
-  -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
-  clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
-  margin-top: -20vh;
-  margin-bottom: 10vh;
-}
-
 .mp14-header {
   padding: 12rem 0rem 24rem 0;
   background-color: #111;
@@ -997,8 +1008,41 @@ body {
   z-index: 9999;
 }
 
+.section-camps-selection {
+  background-color: #222;
+  padding: 0rem 0rem 24rem 0;
+}
+
+.section-about {
+  background-color: #000;
+  padding: 15rem 0 25rem 0;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  text-align: center;
+}
+
+.section-camps {
+  background-color: #222;
+  padding-bottom: 20rem;
+  margin-top: -12vh;
+  transform: skewY(-5deg);
+}
+
+.section-steps {
+  background-color: #222;
+  -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+  margin-top: -20vh;
+  margin-bottom: 10vh;
+}
+
 .section-features {
   background-color: #222;
+}
+
+.all-camps-header {
+  background-color: #222;
+  padding: 12rem 0rem 12rem 0;
 }
 
 /*# sourceMappingURL=style.css.map */
