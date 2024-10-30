@@ -1,3 +1,13 @@
 .section-features {
   background-color: $color-black-dark-2;
+  padding: 15rem 0rem 0rem 0;
+  -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+
+  margin-top: -20vh;
+}
+
+.section-host_cta {
+  padding: 9rem 0;
+  margin-bottom: 9rem;
 }

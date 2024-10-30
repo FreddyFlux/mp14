@@ -1,0 +1,324 @@
+/*--------------------------------
+
+Nucleo icon font
+Generated using nucleoapp.com
+
+-------------------------------- */
+
+@font-face {
+  font-family: 'Nucleo';
+  src: url('../fonts/Nucleo.eot');
+  src: url('../fonts/Nucleo.eot') format('embedded-opentype'),
+       url('../fonts/Nucleo.woff2') format('woff2'),
+       url('../fonts/Nucleo.woff') format('woff'),
+       url('../fonts/Nucleo.ttf') format('truetype'),
+       url('../fonts/Nucleo.svg') format('svg');
+}
+
+/* base class */
+.icon {
+  display: inline-block;
+  font: normal normal normal 1em/1 'Nucleo';
+  color: inherit;
+  flex-shrink: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* size examples - relative units */
+.icon-sm {
+  font-size: 0.8em;
+}
+
+.icon-lg {
+  font-size: 1.2em;
+}
+
+/* size examples - absolute units */
+.icon-16 {
+  font-size: 16px;
+}
+
+.icon-32 {
+  font-size: 32px;
+}
+
+/* rotate the icon infinitely */
+.icon-is-spinning {
+  animation: icon-spin 1s infinite linear;
+}
+
+@keyframes icon-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* transform */
+.icon-rotate-90 {
+  transform: rotate(90deg);
+}
+
+.icon-rotate-180 {
+  transform: rotate(180deg);
+}
+
+.icon-rotate-270 {
+  transform: rotate(270deg);
+}
+
+.icon-flip-y {
+  transform: scaleY(-1);
+}
+
+.icon-flip-x {
+  transform: scaleX(-1);
+}
+
+/* icons */
+.icon-24-hours::before {
+  content: "\ea01";
+}
+
+.icon-Asset-14::before {
+  content: "\ea02";
+}
+
+.icon-address::before {
+  content: "\ea03";
+}
+
+.icon-airplane-flight::before {
+  content: "\ea04";
+}
+
+.icon-basket::before {
+  content: "\ea05";
+}
+
+.icon-branding::before {
+  content: "\ea06";
+}
+
+.icon-bus-journey::before {
+  content: "\ea07";
+}
+
+.icon-calendar::before {
+  content: "\ea08";
+}
+
+.icon-chat-bubble::before {
+  content: "\ea09";
+}
+
+.icon-coach-whistle::before {
+  content: "\ea0a";
+}
+
+.icon-compass::before {
+  content: "\ea0b";
+}
+
+.icon-contact::before {
+  content: "\ea0c";
+}
+
+.icon-contact-online::before {
+  content: "\ea0d";
+}
+
+.icon-credit-card::before {
+  content: "\ea0e";
+}
+
+.icon-cruise-ship::before {
+  content: "\ea0f";
+}
+
+.icon-delivery::before {
+  content: "\ea10";
+}
+
+.icon-diploma::before {
+  content: "\ea11";
+}
+
+.icon-email::before {
+  content: "\ea12";
+}
+
+.icon-firecracker::before {
+  content: "\ea13";
+}
+
+.icon-fish::before {
+  content: "\ea14";
+}
+
+.icon-fitness-tracker::before {
+  content: "\ea15";
+}
+
+.icon-gift::before {
+  content: "\ea16";
+}
+
+.icon-graph::before {
+  content: "\ea17";
+}
+
+.icon-gym::before {
+  content: "\ea18";
+}
+
+.icon-handshake::before {
+  content: "\ea19";
+}
+
+.icon-help-planet::before {
+  content: "\ea1a";
+}
+
+.icon-hiking-trip::before {
+  content: "\ea1b";
+}
+
+.icon-holiday-event::before {
+  content: "\ea1c";
+}
+
+.icon-home::before {
+  content: "\ea1d";
+}
+
+.icon-hotell-building::before {
+  content: "\ea1e";
+}
+
+.icon-location::before {
+  content: "\ea1f";
+}
+
+.icon-magnifying-glass::before {
+  content: "\ea20";
+}
+
+.icon-mail::before {
+  content: "\ea21";
+}
+
+.icon-market-growth::before {
+  content: "\ea22";
+}
+
+.icon-message::before {
+  content: "\ea23";
+}
+
+.icon-mobile::before {
+  content: "\ea24";
+}
+
+.icon-number-one::before {
+  content: "\ea25";
+}
+
+.icon-painting::before {
+  content: "\ea26";
+}
+
+.icon-phone-call::before {
+  content: "\ea27";
+}
+
+.icon-planet-ecology::before {
+  content: "\ea28";
+}
+
+.icon-price-tag::before {
+  content: "\ea29";
+}
+
+.icon-psychology::before {
+  content: "\ea2a";
+}
+
+.icon-recycling::before {
+  content: "\ea2b";
+}
+
+.icon-responsive-design::before {
+  content: "\ea2c";
+}
+
+.icon-restaurant::before {
+  content: "\ea2d";
+}
+
+.icon-rocketship::before {
+  content: "\ea2e";
+}
+
+.icon-seaside-resort::before {
+  content: "\ea2f";
+}
+
+.icon-service::before {
+  content: "\ea30";
+}
+
+.icon-shopping-cart::before {
+  content: "\ea31";
+}
+
+.icon-sponsorship::before {
+  content: "\ea32";
+}
+
+.icon-stop-watch::before {
+  content: "\ea33";
+}
+
+.icon-strength::before {
+  content: "\ea34";
+}
+
+.icon-support::before {
+  content: "\ea35";
+}
+
+.icon-training-days::before {
+  content: "\ea36";
+}
+
+.icon-training-program::before {
+  content: "\ea37";
+}
+
+.icon-travel-destination::before {
+  content: "\ea38";
+}
+
+.icon-vacation-days::before {
+  content: "\ea39";
+}
+
+.icon-veg-fruit::before {
+  content: "\ea3a";
+}
+
+.icon-website::before {
+  content: "\ea3b";
+}
+
+.icon-world::before {
+  content: "\ea3c";
+}
+
+.icon-write-to-us::before {
+  content: "\ea3d";
+}

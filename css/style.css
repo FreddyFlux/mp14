@@ -55,6 +55,7 @@ html {
 
 body {
   box-sizing: border-box;
+  background-color: #222;
 }
 
 @font-face {
@@ -77,6 +78,278 @@ body {
   font-family: "superline-regular";
   src: url(../../assets/fonts/superline-regular-webfont.woff) format("woff");
 }
+@font-face {
+  font-family: "mp-14";
+  src: url("../../assets/Icons/fonts/mp-14.woff2"), url("../../assets/Icons/fonts/mp-14.woff");
+}
+/* base class */
+.icon {
+  display: inline-block;
+  font: normal normal normal 1em/1 "mp-14";
+  color: inherit;
+  flex-shrink: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-orange {
+  color: #ff8019;
+}
+
+/* size examples - relative units */
+.icon-sm {
+  font-size: 0.8em;
+}
+
+.icon-lg {
+  font-size: 5em;
+}
+
+/* icons */
+.icon-24-hours::before {
+  content: "\ea01";
+}
+
+.icon-Asset-14::before {
+  content: "\ea02";
+}
+
+.icon-address::before {
+  content: "\ea03";
+}
+
+.icon-airplane-flight::before {
+  content: "\ea04";
+}
+
+.icon-basket::before {
+  content: "\ea05";
+}
+
+.icon-branding::before {
+  content: "\ea06";
+}
+
+.icon-bus-journey::before {
+  content: "\ea07";
+}
+
+.icon-calendar::before {
+  content: "\ea08";
+}
+
+.icon-chat-bubble::before {
+  content: "\ea09";
+}
+
+.icon-coach-whistle::before {
+  content: "\ea0a";
+}
+
+.icon-compass::before {
+  content: "\ea0b";
+}
+
+.icon-contact::before {
+  content: "\ea0c";
+}
+
+.icon-contact-online::before {
+  content: "\ea0d";
+}
+
+.icon-credit-card::before {
+  content: "\ea0e";
+}
+
+.icon-cruise-ship::before {
+  content: "\ea0f";
+}
+
+.icon-delivery::before {
+  content: "\ea10";
+}
+
+.icon-diploma::before {
+  content: "\ea11";
+}
+
+.icon-email::before {
+  content: "\ea12";
+}
+
+.icon-firecracker::before {
+  content: "\ea13";
+}
+
+.icon-fish::before {
+  content: "\ea14";
+}
+
+.icon-fitness-tracker::before {
+  content: "\ea15";
+}
+
+.icon-gift::before {
+  content: "\ea16";
+}
+
+.icon-graph::before {
+  content: "\ea17";
+}
+
+.icon-gym::before {
+  content: "\ea18";
+}
+
+.icon-handshake::before {
+  content: "\ea19";
+}
+
+.icon-help-planet::before {
+  content: "\ea1a";
+}
+
+.icon-hiking-trip::before {
+  content: "\ea1b";
+}
+
+.icon-holiday-event::before {
+  content: "\ea1c";
+}
+
+.icon-home::before {
+  content: "\ea1d";
+}
+
+.icon-hotell-building::before {
+  content: "\ea1e";
+}
+
+.icon-location::before {
+  content: "\ea1f";
+}
+
+.icon-magnifying-glass::before {
+  content: "\ea20";
+}
+
+.icon-mail::before {
+  content: "\ea21";
+}
+
+.icon-market-growth::before {
+  content: "\ea22";
+}
+
+.icon-message::before {
+  content: "\ea23";
+}
+
+.icon-mobile::before {
+  content: "\ea24";
+}
+
+.icon-number-one::before {
+  content: "\ea25";
+}
+
+.icon-painting::before {
+  content: "\ea26";
+}
+
+.icon-phone-call::before {
+  content: "\ea27";
+}
+
+.icon-planet-ecology::before {
+  content: "\ea28";
+}
+
+.icon-price-tag::before {
+  content: "\ea29";
+}
+
+.icon-psychology::before {
+  content: "\ea2a";
+}
+
+.icon-recycling::before {
+  content: "\ea2b";
+}
+
+.icon-responsive-design::before {
+  content: "\ea2c";
+}
+
+.icon-restaurant::before {
+  content: "\ea2d";
+}
+
+.icon-rocketship::before {
+  content: "\ea2e";
+}
+
+.icon-seaside-resort::before {
+  content: "\ea2f";
+}
+
+.icon-service::before {
+  content: "\ea30";
+}
+
+.icon-shopping-cart::before {
+  content: "\ea31";
+}
+
+.icon-sponsorship::before {
+  content: "\ea32";
+}
+
+.icon-stop-watch::before {
+  content: "\ea33";
+}
+
+.icon-strength::before {
+  content: "\ea34";
+}
+
+.icon-support::before {
+  content: "\ea35";
+}
+
+.icon-training-days::before {
+  content: "\ea36";
+}
+
+.icon-training-program::before {
+  content: "\ea37";
+}
+
+.icon-travel-destination::before {
+  content: "\ea38";
+}
+
+.icon-vacation-days::before {
+  content: "\ea39";
+}
+
+.icon-veg-fruit::before {
+  content: "\ea3a";
+}
+
+.icon-website::before {
+  content: "\ea3b";
+}
+
+.icon-world::before {
+  content: "\ea3c";
+}
+
+.icon-write-to-us::before {
+  content: "\ea3d";
+}
+
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -136,6 +409,9 @@ body {
   letter-spacing: 0.5rem;
   color: #a0fc2a;
 }
+.heading-secondary--orange {
+  color: #ff8019;
+}
 .heading-secondary-sub {
   font-family: "superline-outlineitalic";
   font-size: 6rem;
@@ -162,6 +438,18 @@ body {
   color: #a0fc2a;
   font-size: 6rem;
   letter-spacing: 0.4rem;
+}
+.heading-tertiary--orange {
+  color: #ff8019;
+}
+
+.heading-fourth {
+  font-family: "superline-regular";
+  font-size: 8rem;
+  letter-spacing: 0.5rem;
+}
+.heading-fourth--orange {
+  color: #ff8019;
 }
 
 .steps__number {
@@ -378,6 +666,34 @@ body {
   background-image: url(/assets/img/camp-outdoor-pic.jpg);
   background-position-y: 40%;
 }
+.camps__box__picture-croatia {
+  background-image: url(/assets/flags/croatia.jpg);
+  filter: grayscale(0.7);
+}
+.camps__box__picture-spain {
+  background-image: url(/assets/flags/spain.jpg);
+  filter: grayscale(0.7);
+}
+.camps__box__picture-italy {
+  background-image: url(/assets/flags/italy.jpg);
+  filter: grayscale(0.7);
+}
+.camps__box__picture-austria {
+  background-image: url(/assets/flags/austria.jpg);
+  filter: grayscale(0.7);
+}
+.camps__box__picture-portugal {
+  background-image: url(/assets/flags/portugal.jpg);
+  filter: grayscale(0.7);
+}
+.camps__box__picture-greece {
+  background-image: url(/assets/flags/greece.jpg);
+  filter: grayscale(0.7);
+}
+.camps__box__picture-norway {
+  background-image: url(/assets/flags/norway.jpg);
+  filter: grayscale(0.7);
+}
 .camps__box--mp14 {
   transition: transform 0.3s;
 }
@@ -405,7 +721,7 @@ body {
 }
 .camps__details {
   padding: 3rem;
-  color: #777;
+  color: #ccc;
 }
 .camps__details ul {
   list-style: none;
@@ -428,6 +744,106 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 4rem;
+}
+
+.cta {
+  box-shadow: inset 0 0 0 1px #ff8019;
+  border-radius: 10px;
+  padding: 0.5rem 0.25rem;
+  column-gap: 0;
+}
+.cta__image-box {
+  grid-column: 2/3;
+  grid-row: 1/-1;
+}
+.cta__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.cta h2 {
+  text-align: center;
+}
+.cta__heading-box {
+  margin-bottom: 2rem;
+}
+.cta__description {
+  font-size: 1.8rem;
+  color: #aaa;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.cta__form-box {
+  padding: 6rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cta__form {
+  column-gap: 1rem;
+  row-gap: 1.5rem;
+}
+.cta__form__name {
+  grid-column: span 3;
+  display: flex;
+  flex-direction: column;
+}
+.cta__form__email {
+  grid-column: span 3;
+  display: flex;
+  flex-direction: column;
+}
+.cta__form__sport {
+  grid-column: span 3;
+  display: flex;
+  flex-direction: column;
+}
+.cta__form__city {
+  grid-column: span 3;
+  display: flex;
+  flex-direction: column;
+}
+.cta__form__phone {
+  grid-column: span 3;
+  display: flex;
+  flex-direction: column;
+}
+.cta__form__message {
+  grid-column: span 6;
+  display: flex;
+  flex-direction: column;
+}
+.cta__form__button {
+  grid-column: span 6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.cta__form input {
+  color: inherit;
+  font-size: 1.5rem;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  background-color: #aaa;
+}
+.cta__form textarea {
+  color: inherit;
+  font-size: 1.5rem;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  background-color: #aaa;
+}
+.cta__form label {
+  color: #ccc;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+.cta__form input.btn {
+  background-color: #ff8019;
 }
 
 .navigation__checkbox {
@@ -513,7 +929,7 @@ body {
 }
 .navigation__link:link, .navigation__link:visited {
   display: inline-block;
-  font-size: 10rem;
+  font-size: 8rem;
   font-weight: 300;
   letter-spacing: 0.66rem;
   padding: 1rem 2rem;
@@ -741,6 +1157,17 @@ body {
 
 .grid--5-cols {
   grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--6-cols-form {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 4;
+}
+
+.grid--cta-main {
+  display: grid;
+  grid-template-columns: 60% 40%;
 }
 
 .grid--center-v {
@@ -1013,6 +1440,26 @@ body {
   padding: 0rem 0rem 24rem 0;
 }
 
+.features__headline-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.feature-box {
+  padding: 3rem 2rem 6rem 2rem;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 1px #ff8019;
+  width: 100%;
+}
+.feature-box__text {
+  font-size: 1.8rem;
+  color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 .section-about {
   background-color: #000;
   padding: 15rem 0 25rem 0;
@@ -1038,6 +1485,15 @@ body {
 
 .section-features {
   background-color: #222;
+  padding: 15rem 0rem 0rem 0;
+  -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+  margin-top: -20vh;
+}
+
+.section-host_cta {
+  padding: 9rem 0;
+  margin-bottom: 9rem;
 }
 
 .all-camps-header {

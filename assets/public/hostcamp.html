@@ -17,6 +17,12 @@
 
     <link rel="stylesheet" href="/css/style.css" />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
     <script defer src="/js/script.js"></script>
 
     <title>MP14 &dash; Book Your Camp</title>
@@ -132,157 +138,161 @@
       </div>
     </header>
     <main>
-      <section class="section-steps" id="hosting-steps">
-        <div
-          class="steps steps--orange container grid--big-gap grid--2-cols grid--center-v"
-        >
-          <div class="steps__headline">
-            <h2 class="heading-secondary--outline--orange">
-              Reasons to co-host
-            </h2>
-          </div>
-          <div
-            class="steps__step-text-box steps__step-text-box--left grid grid--2-cols--single"
-          >
-            <div class="steps__step-number-box">
-              <p class="steps__number steps__number--orange">01</p>
-            </div>
-            <div class="steps__step-description-box">
-              <h3 class="steps__step-headline steps__step-headline--orange">
-                We have world class coaches
+      <section class="section-features">
+        <div class="features__headline-box u-margin-bottom-big">
+          <h2 class="heading-secondary--outline--orange">Reasons to co-host</h2>
+        </div>
+        <div class="container grid grid--4-cols">
+          <div class="grid">
+            <div class="feature-box u-center-text">
+              <i
+                class="icon icon-handshake icon-lg icon-orange u-margin-bottom-medium"
+              ></i>
+              <h3
+                class="heading-tertiary heading-tertiary--orange u-margin-bottom-small"
+              >
+                Partner
               </h3>
-              <p class="steps__step-description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
-                ipsa consectetur iure soluta blanditiis, dicta laborum iusto
-                exercitationem neque alias?
+              <p class="feature-box__text">
+                Use our network to market your camp, by beeing partners we are
+                both commited to seeing your camp be as successfull as possible.
               </p>
             </div>
           </div>
-          <div class="steps__img-box">
-            <img
-              src="/assets/img/volleyball-indoor-pic.jpg"
-              alt=""
-              class="steps__img"
-            />
-          </div>
-          <div class="steps__img-box">
-            <img
-              src="/assets/img/volleyball-indoor-pic.jpg"
-              alt=""
-              class="steps__img"
-            />
-          </div>
-          <div
-            class="steps__step-text-box steps__step-text-box--right grid grid--2-cols--single"
-          >
-            <div class="steps__step-number-box">
-              <p class="steps__number steps__number--orange">02</p>
-            </div>
-            <div class="steps__step-description-box">
-              <h3 class="steps__step-headline steps__step-headline--orange">
-                Good deals on
+
+          <div class="col-1-of-4">
+            <div class="feature-box u-center-text">
+              <i
+                class="icon icon-training-program icon-lg icon-orange u-margin-bottom-medium"
+              ></i>
+              <h3
+                class="heading-tertiary heading-tertiary--orange u-margin-bottom-small"
+              >
+                Program
               </h3>
-              <p class="steps__step-description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
-                ipsa consectetur iure soluta blanditiis, dicta laborum iusto
-                exercitationem neque alias?
+              <p class="feature-box__text">
+                With our experience running camps, we have built up programs for
+                everything from the ideal training program for youth to food and
+                logistics program.
               </p>
             </div>
           </div>
-          <div
-            class="steps__step-text-box steps__step-text-box--left grid grid--2-cols--single"
-          >
-            <div class="steps__step-number-box">
-              <p class="steps__number steps__number--orange">03</p>
-            </div>
-            <div class="steps__step-description-box">
-              <h3 class="steps__step-headline steps__step-headline--orange">
-                DO THIS DO THAT
+
+          <div class="col-1-of-4">
+            <div class="feature-box u-center-text">
+              <i
+                class="icon icon-Asset-14 icon-lg icon-orange u-margin-bottom-medium"
+              ></i>
+              <h3
+                class="heading-tertiary heading-tertiary--orange u-margin-bottom-small"
+              >
+                Ideas
               </h3>
-              <p class="steps__step-description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
-                ipsa consectetur iure soluta blanditiis, dicta laborum iusto
-                exercitationem neque alias?
+              <p class="feature-box__text">
+                We started as an entrepreneur and proffesional trainer with a
+                dream. We will share our ideas and experience to help your camp.
               </p>
             </div>
           </div>
-          <div class="steps__img-box">
-            <img
-              src="/assets/img/volleyball-indoor-pic.jpg"
-              alt=""
-              class="steps__img"
-            />
-          </div>
-          <div class="steps__img-box">
-            <img
-              src="/assets/img/volleyball-indoor-pic.jpg"
-              alt=""
-              class="steps__img"
-            />
-          </div>
-          <div
-            class="steps__step-text-box steps__step-text-box--right grid grid--2-cols--single"
-          >
-            <div class="steps__step-number-box">
-              <p class="steps__number steps__number--orange">04</p>
-            </div>
-            <div class="steps__step-description-box">
-              <h3 class="steps__step-headline steps__step-headline--orange">
-                DO THIS DO THAT
+
+          <div class="col-1-of-4">
+            <div class="feature-box u-center-text">
+              <i
+                class="icon icon-graph icon-lg icon-orange u-margin-bottom-medium"
+              ></i>
+              <h3
+                class="heading-tertiary heading-tertiary--orange u-margin-bottom-small"
+              >
+                Growth
               </h3>
-              <p class="steps__step-description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
-                ipsa consectetur iure soluta blanditiis, dicta laborum iusto
-                exercitationem neque alias?
+
+              <p class="feature-box__text">
+                The best thing you can do is to get started. In the future, you
+                might want to run your own camp, and we can help you in a
+                flexibly as you learn more.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section-features">
-        <div class="container grid grid--4-cols">
-          <div class="grid">
-            <div class="feature-box">
-              <i class="feature-box__icon icon-basic-world"></i>
-              <h3 class="heading-tertiary u-margin-bottom-small">Effortless</h3>
-              <p class="feature-box__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi dicta magnam sed ex alias in natus.
-              </p>
+      <section class="section-host_cta">
+        <div class="container">
+          <div class="cta host_cta grid--cta-main">
+            <div class="cta__image-box">
+              <img
+                src="/assets/img/above-coach-directions-pic.jpg"
+                alt="High Angle view of coach discussing with volleyball players"
+                class="cta__image"
+              />
             </div>
-          </div>
-
-          <div class="col-1-of-4">
-            <div class="feature-box">
-              <i class="feature-box__icon icon-basic-compass"></i>
-              <h3 class="heading-tertiary u-margin-bottom-small">Scaleable</h3>
-              <p class="feature-box__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi dicta magnam sed ex alias in natus.
+            <div class="cta__form-box">
+              <h2
+                class="cta__heading-box heading-fourth heading-fourth--orange"
+              >
+                Ready to host your camp?
+              </h2>
+              <p class="cta__description">
+                Take contact so we can discuss your camp and how we can benefit
+                each other.
               </p>
-            </div>
-          </div>
-
-          <div class="col-1-of-4">
-            <div class="feature-box">
-              <i class="feature-box__icon icon-basic-map"></i>
-              <h3 class="heading-tertiary u-margin-bottom-small">Productive</h3>
-              <p class="feature-box__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi dicta magnam sed ex alias in natus.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-1-of-4">
-            <div class="feature-box">
-              <i class="feature-box__icon icon-basic-heart"></i>
-              <h3 class="heading-tertiary u-margin-bottom-small">rewarding</h3>
-              <p class="feature-box__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi dicta magnam sed ex alias in natus.
-              </p>
+              <form class="cta__form grid--6-cols-form">
+                <div class="cta__form__name">
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Ivan Horvat"
+                    name="full-name"
+                    required
+                  />
+                </div>
+                <div class="cta__form__email">
+                  <label for="email">Email</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="ivan@horvat.com"
+                    name="email"
+                    required
+                  />
+                </div>
+                <div class="cta__form__sport">
+                  <label for="sport">Sport Genre</label>
+                  <input
+                    id="sport"
+                    type="text"
+                    placeholder="Volleyball"
+                    name="sport"
+                  />
+                </div>
+                <div class="cta__form__city">
+                  <label for="city">City</label>
+                  <input
+                    id="city"
+                    type="text"
+                    placeholder="Zagreb"
+                    name="city"
+                  />
+                </div>
+                <div class="cta__form__phone">
+                  <label for="phone">Phone number:</label>
+                  <input id="phone" type="tel" name="phone" />
+                </div>
+                <div class="cta__form__message">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    type="text"
+                    placeholder="Additional info"
+                    name="message"
+                    rows="4"
+                  ></textarea>
+                </div>
+                <div class="cta__form__button">
+                  <input type="submit" class="btn btn--tertiary" />
+                </div>
+              </form>
             </div>
           </div>
         </div>

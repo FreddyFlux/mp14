@@ -21,12 +21,42 @@
       clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
       border-top-left-radius: 3px;
       border-top-right-radius: 3px;
+
       &-1 {
         background-image: url(/assets/img/volleyball-indoor-pic.jpg);
       }
       &-2 {
         background-image: url(/assets/img/camp-outdoor-pic.jpg);
         background-position-y: 40%;
+      }
+
+      &-croatia {
+        background-image: url(/assets/flags/croatia.jpg);
+        filter: grayscale(0.7);
+      }
+      &-spain {
+        background-image: url(/assets/flags/spain.jpg);
+        filter: grayscale(0.7);
+      }
+      &-italy {
+        background-image: url(/assets/flags/italy.jpg);
+        filter: grayscale(0.7);
+      }
+      &-austria {
+        background-image: url(/assets/flags/austria.jpg);
+        filter: grayscale(0.7);
+      }
+      &-portugal {
+        background-image: url(/assets/flags/portugal.jpg);
+        filter: grayscale(0.7);
+      }
+      &-greece {
+        background-image: url(/assets/flags/greece.jpg);
+        filter: grayscale(0.7);
+      }
+      &-norway {
+        background-image: url(/assets/flags/norway.jpg);
+        filter: grayscale(0.7);
       }
     }
     &--mp14 {
@@ -60,7 +90,7 @@
 
   &__details {
     padding: 3rem;
-    color: $color-grey-light-2;
+    color: $color-grey-light-5;
     ul {
       list-style: none;
       width: 80%;

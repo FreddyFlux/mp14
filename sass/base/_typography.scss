@@ -1,29 +1,33 @@
 .navigation__link {
   &:link,
   &:visited {
-    font-family: "superline-regular";
+    font-family: 'superline-regular';
   }
 }
 
 .heading-primary {
-  font-family: "superline-regular";
+  font-family: 'superline-regular';
   letter-spacing: 0.5rem;
 
   &__sub {
-    font-family: "superline-line";
+    font-family: 'superline-line';
     letter-spacing: 0.9rem;
     color: $color-primary;
   }
 }
 
 .heading-secondary {
-  font-family: "superline-regular";
+  font-family: 'superline-regular';
   font-size: 12rem;
   letter-spacing: 0.5rem;
   color: $color-primary;
 
+  &--orange {
+    color: $color-tertiary;
+  }
+
   &-sub {
-    font-family: "superline-outlineitalic";
+    font-family: 'superline-outlineitalic';
     font-size: 6rem;
     color: $color-primary;
     letter-spacing: 0.8rem;
@@ -31,47 +35,61 @@
 }
 
 .heading-secondary--outline {
-  font-family: "superline-outlineitalic";
+  font-family: 'superline-outlineitalic';
   font-size: 12rem;
   letter-spacing: 0.5rem;
   color: $color-primary;
 }
 
 .heading-secondary--outline--orange {
-  font-family: "superline-outlineitalic";
+  font-family: 'superline-outlineitalic';
   font-size: 12rem;
   letter-spacing: 0.5rem;
   color: $color-tertiary;
 }
 
 .heading-tertiary {
-  font-family: "superline-outlineitalic";
+  font-family: 'superline-outlineitalic';
   color: $color-primary;
   font-size: 6rem;
   letter-spacing: 0.4rem;
+
+  &--orange {
+    color: $color-tertiary;
+  }
+}
+
+.heading-fourth {
+  font-family: 'superline-regular';
+  font-size: 8rem;
+  letter-spacing: 0.5rem;
+
+  &--orange {
+    color: $color-tertiary;
+  }
 }
 
 .steps__number {
-  font-family: "superline-outlineitalic";
+  font-family: 'superline-outlineitalic';
   font-size: 24rem;
   color: $color-primary;
 }
 
 .steps__number--orange {
-  font-family: "superline-outlineitalic";
+  font-family: 'superline-outlineitalic';
   font-size: 24rem;
   color: $color-tertiary;
 }
 
 .steps__step-headline {
-  font-family: "superline-regular";
+  font-family: 'superline-regular';
   color: $color-primary;
   font-size: 3rem;
   letter-spacing: 0.3rem;
 }
 
 .steps__step-headline--orange {
-  font-family: "superline-regular";
+  font-family: 'superline-regular';
   color: $color-tertiary;
   font-size: 4rem;
   letter-spacing: 0.4rem;

@@ -1,25 +1,27 @@
-@import "shortcuts/variables";
-@import "shortcuts/mixins";
+@import 'shortcuts/variables';
+@import 'shortcuts/mixins';
 
-@import "base/base";
-@import "base/animations";
-@import "base/typography";
-@import "base/utilities";
+@import 'base/base';
+@import 'base/animations';
+@import 'base/typography';
+@import 'base/utilities';
 
-@import "components/button";
-@import "components/camps";
+@import 'components/button';
+@import 'components/camps';
+@import 'components/cta';
 
-@import "layout/navigation";
-@import "layout/header";
-@import "layout/grid";
-@import "layout/steps";
-@import "layout/footer";
-@import "layout/about";
-@import "layout/mp14-header";
-@import "layout/hostcamps-header";
-@import "layout/all-camps-selection";
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/grid';
+@import 'layout/steps';
+@import 'layout/footer';
+@import 'layout/about';
+@import 'layout/mp14-header';
+@import 'layout/hostcamps-header';
+@import 'layout/all-camps-selection';
+@import 'layout/partner-features';
 
-@import "pages/home";
-@import "pages/mp-14";
-@import "pages/hostcamps";
-@import "pages/all-camps";
+@import 'pages/home';
+@import 'pages/mp-14';
+@import 'pages/hostcamps';
+@import 'pages/all-camps';

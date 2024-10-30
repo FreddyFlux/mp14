@@ -34,6 +34,17 @@
   grid-template-columns: repeat(5, 1fr);
 }
 
+.grid--6-cols-form {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 4;
+}
+
+.grid--cta-main {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
 .grid--center-v {
   align-items: center;
 }
