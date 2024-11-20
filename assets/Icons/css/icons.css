@@ -9,10 +9,10 @@ Generated using nucleoapp.com
   font-family: 'mp-14';
   src: url('../fonts/mp-14.eot');
   src: url('../fonts/mp-14.eot') format('embedded-opentype'),
-       url('../fonts/mp-14.woff2') format('woff2'),
-       url('../fonts/mp-14.woff') format('woff'),
-       url('../fonts/mp-14.ttf') format('truetype'),
-       url('../fonts/mp-14.svg') format('svg');
+    url('../fonts/mp-14.woff2') format('woff2'),
+    url('../fonts/mp-14.woff') format('woff'),
+    url('../fonts/mp-14.ttf') format('truetype'),
+    url('../fonts/mp-14.svg') format('svg');
 }
 
 /* base class */
@@ -24,6 +24,10 @@ Generated using nucleoapp.com
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* ------------------
+GENERAL STYLES
+---------------------*/
 
 /* size examples - relative units */
 .icon-sm {
@@ -80,245 +84,249 @@ Generated using nucleoapp.com
 
 /* icons */
 .icon-24-hours::before {
-  content: "\ea01";
+  content: '\ea01';
 }
 
 .icon-Asset-14::before {
-  content: "\ea02";
+  content: '\ea02';
 }
 
 .icon-address::before {
-  content: "\ea03";
+  content: '\ea03';
 }
 
 .icon-airplane-flight::before {
-  content: "\ea04";
+  content: '\ea04';
 }
 
 .icon-basket::before {
-  content: "\ea05";
+  content: '\ea05';
 }
 
 .icon-branding::before {
-  content: "\ea06";
+  content: '\ea06';
 }
 
 .icon-bus-journey::before {
-  content: "\ea07";
+  content: '\ea07';
 }
 
 .icon-calendar::before {
-  content: "\ea08";
+  content: '\ea08';
 }
 
 .icon-chat-bubble::before {
-  content: "\ea09";
+  content: '\ea09';
 }
 
 .icon-coach-whistle::before {
-  content: "\ea0a";
+  content: '\ea0a';
 }
 
 .icon-compass::before {
-  content: "\ea0b";
+  content: '\ea0b';
 }
 
 .icon-contact::before {
-  content: "\ea0c";
+  content: '\ea0c';
 }
 
 .icon-contact-online::before {
-  content: "\ea0d";
+  content: '\ea0d';
 }
 
 .icon-credit-card::before {
-  content: "\ea0e";
+  content: '\ea0e';
 }
 
 .icon-cruise-ship::before {
-  content: "\ea0f";
+  content: '\ea0f';
 }
 
 .icon-delivery::before {
-  content: "\ea10";
+  content: '\ea10';
 }
 
 .icon-diploma::before {
-  content: "\ea11";
+  content: '\ea11';
 }
 
 .icon-email::before {
-  content: "\ea12";
+  content: '\ea12';
 }
 
 .icon-firecracker::before {
-  content: "\ea13";
+  content: '\ea13';
 }
 
 .icon-fish::before {
-  content: "\ea14";
+  content: '\ea14';
 }
 
 .icon-fitness-tracker::before {
-  content: "\ea15";
+  content: '\ea15';
 }
 
 .icon-gift::before {
-  content: "\ea16";
+  content: '\ea16';
 }
 
 .icon-graph::before {
-  content: "\ea17";
+  content: '\ea17';
 }
 
 .icon-gym::before {
-  content: "\ea18";
+  content: '\ea18';
 }
 
 .icon-handshake::before {
-  content: "\ea19";
+  content: '\ea19';
 }
 
 .icon-help-planet::before {
-  content: "\ea1a";
+  content: '\ea1a';
 }
 
 .icon-hiking-trip::before {
-  content: "\ea1b";
+  content: '\ea1b';
 }
 
 .icon-holiday-event::before {
-  content: "\ea1c";
+  content: '\ea1c';
 }
 
 .icon-home::before {
-  content: "\ea1d";
+  content: '\ea1d';
 }
 
 .icon-hotell-building::before {
-  content: "\ea1e";
+  content: '\ea1e';
 }
 
 .icon-location::before {
-  content: "\ea1f";
+  content: '\ea1f';
 }
 
 .icon-magnifying-glass::before {
-  content: "\ea20";
+  content: '\ea20';
 }
 
 .icon-mail::before {
-  content: "\ea21";
+  content: '\ea21';
 }
 
 .icon-market-growth::before {
-  content: "\ea22";
+  content: '\ea22';
 }
 
 .icon-message::before {
-  content: "\ea23";
+  content: '\ea23';
 }
 
 .icon-mobile::before {
-  content: "\ea24";
+  content: '\ea24';
 }
 
 .icon-number-one::before {
-  content: "\ea25";
+  content: '\ea25';
 }
 
 .icon-painting::before {
-  content: "\ea26";
+  content: '\ea26';
 }
 
 .icon-phone-call::before {
-  content: "\ea27";
+  content: '\ea27';
 }
 
 .icon-planet-ecology::before {
-  content: "\ea28";
+  content: '\ea28';
 }
 
 .icon-price-tag::before {
-  content: "\ea29";
+  content: '\ea29';
 }
 
 .icon-psychology::before {
-  content: "\ea2a";
+  content: '\ea2a';
 }
 
 .icon-recycling::before {
-  content: "\ea2b";
+  content: '\ea2b';
 }
 
 .icon-responsive-design::before {
-  content: "\ea2c";
+  content: '\ea2c';
 }
 
 .icon-restaurant::before {
-  content: "\ea2d";
+  content: '\ea2d';
 }
 
 .icon-rocketship::before {
-  content: "\ea2e";
+  content: '\ea2e';
 }
 
 .icon-seaside-resort::before {
-  content: "\ea2f";
+  content: '\ea2f';
 }
 
 .icon-service::before {
-  content: "\ea30";
+  content: '\ea30';
 }
 
 .icon-shopping-cart::before {
-  content: "\ea31";
+  content: '\ea31';
 }
 
 .icon-sponsorship::before {
-  content: "\ea32";
+  content: '\ea32';
 }
 
 .icon-stop-watch::before {
-  content: "\ea33";
+  content: '\ea33';
 }
 
 .icon-strength::before {
-  content: "\ea34";
+  content: '\ea34';
 }
 
 .icon-support::before {
-  content: "\ea35";
+  content: '\ea35';
 }
 
 .icon-training-days::before {
-  content: "\ea36";
+  content: '\ea36';
 }
 
 .icon-training-program::before {
-  content: "\ea37";
+  content: '\ea37';
 }
 
 .icon-travel-destination::before {
-  content: "\ea38";
+  content: '\ea38';
 }
 
 .icon-vacation-days::before {
-  content: "\ea39";
+  content: '\ea39';
 }
 
 .icon-veg-fruit::before {
-  content: "\ea3a";
+  content: '\ea3a';
 }
 
 .icon-website::before {
-  content: "\ea3b";
+  content: '\ea3b';
 }
 
 .icon-world::before {
-  content: "\ea3c";
+  content: '\ea3c';
 }
 
 .icon-write-to-us::before {
-  content: "\ea3d";
+  content: '\ea3d';
+}
+
+.icon--primary {
+  color: #a0fc2a;
 }

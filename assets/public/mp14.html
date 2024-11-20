@@ -2,10 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
@@ -15,17 +25,30 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="/css/style.css"
+    />
 
-    <script defer src="/js/script.js"></script>
+    <script
+      defer
+      src="/js/script.js"
+    ></script>
 
     <title>MP14 &dash; Book Your Camp</title>
   </head>
 
   <body>
     <div class="navigation">
-      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
-      <label for="navi-toggle" class="navigation__button">
+      <input
+        type="checkbox"
+        class="navigation__checkbox"
+        id="navi-toggle"
+      />
+      <label
+        for="navi-toggle"
+        class="navigation__button"
+      >
         <span class="navigation__icon">&nbsp;</span>
       </label>
       <div class="navigation__background navigation__background--inactive">
@@ -35,33 +58,51 @@
       <nav class="navigation__nav navigation__nav--inactive">
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a href="/index.html" class="navigation__link"
+            <a
+              href="/index.html"
+              class="navigation__link"
               ><span>01 &dash;</span>Home</a
             >
           </li>
           <li class="navigation__item">
-            <a href="/assets/public/mp14.html" class="navigation__link"
+            <a
+              href="/assets/public/mp14.html"
+              class="navigation__link"
               ><span>02 &dash;</span>MP14 Camps</a
             >
           </li>
           <li class="navigation__item">
-            <a href="/assets/public/hostcamp.html" class="navigation__link"
+            <a
+              href="/assets/public/hostcamp.html"
+              class="navigation__link"
               ><span>03 &dash;</span>Host & Market camps</a
             >
           </li>
           <li class="navigation__item">
-            <a href="/assets/public/all-camps.html" class="navigation__link"
+            <a
+              href="/assets/public/all-camps.html"
+              class="navigation__link"
               ><span>04 &dash;</span>All camps</a
             >
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link"><span>05 &dash;</span>Info</a>
+            <a
+              href="#"
+              class="navigation__link"
+              ><span>05 &dash;</span>Info</a
+            >
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link"><span>06 &dash;</span>News </a>
+            <a
+              href="#"
+              class="navigation__link"
+              ><span>06 &dash;</span>News
+            </a>
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link"
+            <a
+              href="#"
+              class="navigation__link"
               ><span>07 &dash;</span>login
             </a>
           </li>
@@ -71,7 +112,10 @@
 
     <header class="mp14-header">
       <div class="header__logo-box">
-        <a href="/index.html" class="logo-button">
+        <a
+          href="/index.html"
+          class="logo-button"
+        >
           <img
             src="/assets/img/mp-logo-green.png"
             alt="Logo"
@@ -100,7 +144,9 @@
             the sport and other people.
           </p>
           <div class="mp14-header__button-box">
-            <a href="#join-steps" class="btn btn--outline btn--animated"
+            <a
+              href="#join-steps"
+              class="btn btn--outline btn--animated"
               >Learn more &darr;</a
             >
           </div>
@@ -115,7 +161,43 @@
       </div>
     </header>
     <main>
-      <div class="section-steps" id="join-steps">
+      <section class="section-mp14camps-container">
+        <div class="section-mp14camps camps grid container grid--4-cols">
+          <div class="section-mp14camps camps__box camps__box--mp14">
+            <div
+              class="section-mp14camps camps__box__picture camps__box__picture-1"
+            >
+              &nbsp;
+            </div>
+            <h4 class="section-mp14camps camps__heading camps__heading-1">
+              <span
+                class="section-mp14camps card__heading-span card__heading-span--3"
+                >MP14 VOLLEY PRO CAMP</span
+              >
+            </h4>
+            <div class="section-mp14camps camps__details camps__details-1">
+              <ul>
+                <li>Piancavallo, Udine , Italy</li>
+                <li>13.07.2025 &dash; 19.07.2025.</li>
+                <li>Age 8-18</li>
+                <li>World Class Teachers</li>
+                <li>All inclusive</li>
+              </ul>
+            </div>
+            <div class="section-mp14camps camps__cta">
+              <a
+                href="#popupMP14"
+                class="btn btn--secondary"
+                >Learn More!</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="section-steps"
+        id="join-steps"
+      >
         <div class="container grid--big-gap grid--2-cols steps grid--center-v">
           <div class="steps__headline">
             <h2 class="heading-secondary">How to sign up</h2>
@@ -213,7 +295,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="footer__box container grid grid--3-cols">
@@ -227,29 +309,53 @@
         <div class="footer__navigation">
           <ul class="footer__list">
             <li class="footer__item">
-              <a href="/assets/public/mp14.html" class="footer__link"
+              <a
+                href="/assets/public/mp14.html"
+                class="footer__link"
                 >MP14 Camp</a
               >
             </li>
             <li class="footer__item">
-              <a href="/assets/public/hostcamp.html" class="footer__link"
+              <a
+                href="/assets/public/hostcamp.html"
+                class="footer__link"
                 >Host Camp</a
               >
             </li>
             <li class="footer__item">
-              <a href="#" class="footer__link">All camps</a>
+              <a
+                href="#"
+                class="footer__link"
+                >All camps</a
+              >
             </li>
             <li class="footer__item">
-              <a href="#" class="footer__link">Info</a>
+              <a
+                href="#"
+                class="footer__link"
+                >Info</a
+              >
             </li>
             <li class="footer__item">
-              <a href="#" class="footer__link">News</a>
+              <a
+                href="#"
+                class="footer__link"
+                >News</a
+              >
             </li>
             <li class="footer__item">
-              <a href="#" class="footer__link">Contact</a>
+              <a
+                href="#"
+                class="footer__link"
+                >Contact</a
+              >
             </li>
             <li class="footer__item">
-              <a href="#" class="footer__link">Login</a>
+              <a
+                href="#"
+                class="footer__link"
+                >Login</a
+              >
             </li>
           </ul>
         </div>
@@ -266,5 +372,61 @@
         </div>
       </div>
     </footer>
+    <div
+      class="popup"
+      id="popupMP14"
+    >
+      <div class="popup__content grid--3-cols">
+        <div class="camps__box camps__box--mp14">
+          <div class="camps__box__picture camps__box__picture-1">&nbsp;</div>
+          <h4 class="camps__heading camps__heading-1">
+            <span class="card__heading-span card__heading-span--3"
+              >MP14 VOLLEY PRO CAMP</span
+            >
+          </h4>
+          <div class="camps__details camps__details-1">
+            <ul>
+              <li>Piancavallo, Udine , Italy</li>
+              <li>13.07.2025 &dash; 19.07.2025.</li>
+              <li>Age 8-18</li>
+              <li>World Class Teachers</li>
+              <li>All inclusive</li>
+            </ul>
+          </div>
+          <div class="u-center-text">
+            <i
+              class="icon icon-number-one icon-lg icon--primary u-margin-bottom-medium"
+            ></i>
+          </div>
+        </div>
+
+        <div class="popup__right">
+          <a
+            href="#section-tours"
+            class="popup__close"
+            >&times;</a
+          >
+          <h2 class="heading-secondary">book now</h2>
+          <h3 class="heading-tertiary u-margin-bottom-medium">36 spots left</h3>
+          <ul class="popup__details popup__details-1">
+            <li>PRICE: 650€</li>
+            <li>
+              INCLUDES: 11 practices, conditional trainings, sport material
+            </li>
+            <li>FOR: Boys and girls from 8-18 years</li>
+            <li>ARRIVAL: Sunday 13.07 after lunch - 16.00</li>
+            <li>RETURN: After breakfast 10,00</li>
+            <li>LEARN: How to take your skills to the next level</li>
+          </ul>
+          <div>
+            <a
+              href="#popupMP14"
+              class="popup__btn btn btn--green"
+              >Book now</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
