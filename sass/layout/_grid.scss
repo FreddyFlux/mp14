@@ -2,6 +2,10 @@
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
+
+  @include respond(tab-port) {
+    row-gap: 4rem;
+  }
 }
 
 .grid--big-gap {
@@ -16,6 +20,10 @@
 
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
+
+  @include respond(phone) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .grid--2-cols--single {
@@ -24,6 +32,10 @@
 
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
+
+  @include respond(phone) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .grid--4-cols {

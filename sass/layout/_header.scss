@@ -8,16 +8,25 @@
     align-items: center;
     justify-content: center;
     z-index: 9999;
+
+    @include respond(tab-port) {
+      top: 1.5rem;
+      left: 0.5rem;
+    }
+
+    @include respond(phone) {
+      left: 0.5rem;
+    }
   }
 
   &__logo {
     height: 12rem;
 
     @include respond(tab-port) {
-      height: 10rem;
+      height: 6rem;
     }
     @include respond(phone) {
-      height: 8rem;
+      height: 5rem;
     }
   }
 
@@ -64,15 +73,6 @@
           line-height: 100vh;
         }
 
-        &__bottom {
-          z-index: 999;
-          font-size: 8vw;
-          position: absolute;
-          top: 70%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-        }
-
         &__top,
         .header__video-box__bg-video.span {
           z-index: 999;
@@ -82,14 +82,17 @@
           left: 50%;
           transform: translate(-50%, -50%);
           line-height: 100vh;
+
           @include respond(tab-port) {
+            top: 25%;
             font-size: 4vw;
             letter-spacing: 0.4rem;
           }
 
           @include respond(phone) {
-            font-size: 2.5vw;
-            letter-spacing: 0.2rem;
+            font-size: 6vw;
+            lett-spacing: 0.6rem;
+            top: 30%;
           }
         }
       }
@@ -99,7 +102,6 @@
       justify-content: center;
       align-items: center;
       margin-top: -25vh;
-      margin-bottom: 5rem;
     }
   }
 }

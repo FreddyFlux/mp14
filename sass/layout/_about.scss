@@ -1,10 +1,4 @@
 .about {
-  &__headline {
-    margin-bottom: 12rem;
-  }
-  &__text-box {
-  }
-
   &__description {
     margin-top: 3rem;
     font-size: 1.6rem;
@@ -19,7 +13,10 @@
     gap: 2rem;
   }
 
-  &__img-box {
+  &__img-box--host {
+    @include respond(phone) {
+      grid-row-start: 4;
+    }
   }
 
   &__photo {

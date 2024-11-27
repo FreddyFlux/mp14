@@ -4,8 +4,8 @@
   font-size: 1.5rem;
   color: $color-white;
   position: relative;
-  z-index: 100;
-  margin-top: -10vh;
+
+  // margin-top: -10vh;
 
   @include respond(tab-port) {
     padding: 8rem 0;
@@ -15,10 +15,6 @@
     text-align: center;
     // margin-bottom: 8rem;
     grid-column: 2 / 3;
-
-    @include respond(tab-port) {
-      margin-bottom: 6rem;
-    }
   }
 
   &__logo {
@@ -35,6 +31,8 @@
     align-items: center;
 
     @include respond(tab-port) {
+      grid-row: 1;
+      grid-column: span 2;
       width: 100%;
       text-align: center;
     }
@@ -79,6 +77,10 @@
     grid-column: 3 / 4;
     border-top: 1px solid $color-grey-light-3;
     padding-top: 2rem;
+
+    @include respond(tab-port) {
+      grid-row: 1;
+    }
   }
 
   &__copyright {

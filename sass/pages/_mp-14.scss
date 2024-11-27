@@ -3,10 +3,15 @@
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 
-.section-mp14camps-container {
+.section-mp14 {
   transform: skewY(-5deg);
   margin-top: 10rem;
   margin-bottom: 20rem;
+
+  &__headline {
+    transform: skewY(5deg);
+    grid-column: 1 / -1;
+  }
 }
 
 .section-mp14camps.camps__box {
