@@ -60,27 +60,39 @@ body {
 
 @font-face {
   font-family: "superline-italic";
-  src: url(/assets/fonts/) format("woff2");
+  src: url(../../assets/fonts/superline-italic-webfont.woff2) format("woff2");
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-smoothing: subpixel-antialiased;
 }
 @font-face {
   font-family: "superline-line";
   src: url(../../assets/fonts/superline-line-webfont.woff2) format("woff2");
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-smoothing: subpixel-antialiased;
 }
 @font-face {
   font-family: "superline-line-italic";
   src: url(../../assets/fonts/superline-lineitalic-webfont.woff2) format("woff2");
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-smoothing: subpixel-antialiased;
 }
 @font-face {
   font-family: "superline-outlineitalic";
   src: url(../../assets/fonts/superline-outlineitalic-webfont.woff2) format("woff2");
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-smoothing: subpixel-antialiased;
 }
 @font-face {
   font-family: "superline-regular";
   src: url(../../assets/fonts/superline-regular-webfont.woff2) format("woff2");
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-smoothing: subpixel-antialiased;
 }
 @font-face {
   font-family: "mp-14";
   src: url("../../assets/Icons/fonts/mp-14.woff2"), url("../../assets/Icons/fonts/mp-14.woff");
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-smoothing: subpixel-antialiased;
 }
 /* base class */
 .icon {
