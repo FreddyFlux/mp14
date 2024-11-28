@@ -84,10 +84,9 @@
           font-size: 5vw;
           position: absolute;
           top: 20%;
-          left: 50%;
+          left: 63%;
           transform: translate(-50%, -50%);
-          line-height: 100vh;
-
+          width: 100%;
           @include respond(tab-port) {
             top: 25%;
             font-size: 4vw;
@@ -95,9 +94,9 @@
           }
 
           @include respond(phone) {
-            font-size: 8vw;
-            lett-spacing: 0.6rem;
-            top: 25%;
+            font-size: 6rem;
+            letter-spacing: 0.6rem;
+            top: 30%;
           }
         }
       }
