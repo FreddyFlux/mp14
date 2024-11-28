@@ -19,3 +19,6 @@ toggles.forEach((toggle) => {
     toggle.parentNode.classList.toggle('info__faq--active');
   });
 });
+
+/////////////
+// OPTIMIZING FOR PHONE

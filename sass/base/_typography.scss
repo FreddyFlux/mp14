@@ -98,6 +98,20 @@
   }
 }
 
+////// Setting text content for header on small / Big screens
+.big-text {
+  @include respond(phone) {
+    display: none;
+  }
+}
+
+.small-text {
+  display: none;
+  @include respond(phone) {
+    display: block;
+  }
+}
+
 .about__description {
   font-size: 1.8rem;
   color: $color-grey-light-5;
