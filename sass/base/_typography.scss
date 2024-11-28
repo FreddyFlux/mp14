@@ -22,6 +22,10 @@
   letter-spacing: 0.5rem;
   color: $color-primary;
 
+  &--line {
+    font-family: 'superline-line';
+  }
+
   @include respond(tab-port) {
     font-size: 8rem;
   }
@@ -71,11 +75,11 @@
   letter-spacing: 0.4rem;
 
   @include respond(tab-port) {
-    font-size: 4rem;
+    font-size: 6rem;
   }
 
   @include respond(phone) {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 
   &--orange {
@@ -92,6 +96,11 @@
   &--orange {
     color: $color-tertiary;
   }
+}
+
+.about__description {
+  font-size: 1.8rem;
+  color: $color-grey-light-5;
 }
 
 .steps__number {

@@ -56,10 +56,11 @@
       }
       &__text {
         position: absolute;
+
         transform: translate3d(0, 0, 0);
         top: 0;
-        left: 0;
-        width: 100%;
+        left: -7.5%;
+        width: 110%;
         height: 100%;
         background: #000;
         color: #777;
@@ -71,6 +72,10 @@
         &__center {
           font-size: 18vw;
           line-height: 100vh;
+
+          @include respond(phone) {
+            font-size: 35rem;
+          }
         }
 
         &__top,
@@ -92,7 +97,7 @@
           @include respond(phone) {
             font-size: 6vw;
             lett-spacing: 0.6rem;
-            top: 30%;
+            top: 25%;
           }
         }
       }
@@ -102,6 +107,9 @@
       justify-content: center;
       align-items: center;
       margin-top: -25vh;
+      @include respond(phone) {
+        margin-top: -30vh;
+      }
     }
   }
 }

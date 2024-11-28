@@ -421,6 +421,9 @@ body {
   letter-spacing: 0.5rem;
   color: #a0fc2a;
 }
+.heading-secondary--line {
+  font-family: "superline-line";
+}
 @media only screen and (max-width: 56.25em) {
   .heading-secondary {
     font-size: 8rem;
@@ -473,12 +476,12 @@ body {
 }
 @media only screen and (max-width: 56.25em) {
   .heading-tertiary {
-    font-size: 4rem;
+    font-size: 6rem;
   }
 }
 @media only screen and (max-width: 37.5em) {
   .heading-tertiary {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 }
 .heading-tertiary--orange {
@@ -493,6 +496,11 @@ body {
 }
 .heading-fourth--orange {
   color: #ff8019;
+}
+
+.about__description {
+  font-size: 1.8rem;
+  color: #ccc;
 }
 
 .steps__number {
@@ -1446,8 +1454,8 @@ body {
   position: absolute;
   transform: translate3d(0, 0, 0);
   top: 0;
-  left: 0;
-  width: 100%;
+  left: -7.5%;
+  width: 110%;
   height: 100%;
   background: #000;
   color: #777;
@@ -1458,6 +1466,11 @@ body {
 .header__video-box__bg-video__text__center {
   font-size: 18vw;
   line-height: 100vh;
+}
+@media only screen and (max-width: 37.5em) {
+  .header__video-box__bg-video__text__center {
+    font-size: 35rem;
+  }
 }
 .header__video-box__bg-video__text__top,
 .header__video-box__bg-video__text .header__video-box__bg-video.span {
@@ -1482,7 +1495,7 @@ body {
   .header__video-box__bg-video__text .header__video-box__bg-video.span {
     font-size: 6vw;
     lett-spacing: 0.6rem;
-    top: 30%;
+    top: 25%;
   }
 }
 .header__video-box__button-box {
@@ -1490,6 +1503,11 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: -25vh;
+}
+@media only screen and (max-width: 37.5em) {
+  .header__video-box__button-box {
+    margin-top: -30vh;
+  }
 }
 
 .grid {
@@ -1721,8 +1739,6 @@ body {
 
 .about__description {
   margin-top: 3rem;
-  font-size: 1.6rem;
-  color: #999;
 }
 .about__link-box {
   margin-top: 4rem;
