@@ -58,10 +58,6 @@ body {
   background-color: #222;
 }
 
-#google_translate_element {
-  z-index: 99999;
-}
-
 @font-face {
   font-family: "superline-italic";
   src: url(../../assets/fonts/superline-italic-webfont.woff2) format("woff2");
@@ -1532,18 +1528,18 @@ body {
   .header__video-box__bg-video__text__top,
   .header__video-box__bg-video__text .header__video-box__bg-video.span {
     top: 25%;
-    font-size: 4vw;
+    font-size: 5vw;
     letter-spacing: 0.4rem;
   }
 }
 @media only screen and (max-width: 37.5em) {
   .header__video-box__bg-video__text__top,
   .header__video-box__bg-video__text .header__video-box__bg-video.span {
-    width: 100%;
-    left: 66%;
-    font-size: 6rem;
+    left: 50%;
+    font-size: 4rem;
     letter-spacing: 0.6rem;
-    top: 30%;
+    top: 20%;
+    text-align: center;
   }
 }
 .header__video-box__button-box {

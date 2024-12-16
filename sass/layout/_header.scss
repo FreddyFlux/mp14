@@ -89,16 +89,16 @@
           // width: 100%;
           @include respond(tab-port) {
             top: 25%;
-            font-size: 4vw;
+            font-size: 5vw;
             letter-spacing: 0.4rem;
           }
 
           @include respond(phone) {
-            width: 100%;
-            left: 66%;
-            font-size: 6rem;
+            left: 50%;
+            font-size: 4rem;
             letter-spacing: 0.6rem;
-            top: 30%;
+            top: 20%;
+            text-align: center;
           }
         }
       }
