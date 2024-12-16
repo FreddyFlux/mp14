@@ -29,6 +29,11 @@ body {
   background-color: $color-black-dark-2;
 }
 
+// GOOGLE TRANSLATE
+#google_translate_element {
+  z-index: 99999;
+}
+
 // FONTS
 @font-face {
   font-family: 'superline-italic';

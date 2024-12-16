@@ -8,11 +8,13 @@
 .heading-primary {
   font-family: 'superline-regular';
   letter-spacing: 0.5rem;
+  font-weight: normal !important;
 
   &__sub {
     font-family: 'superline-line';
     letter-spacing: 0.9rem;
     color: $color-primary;
+    font-weight: normal !important;
   }
 }
 
@@ -21,9 +23,11 @@
   font-size: 12rem;
   letter-spacing: 0.5rem;
   color: $color-primary;
+  font-weight: normal !important;
 
   &--line {
     font-family: 'superline-line';
+    font-weight: normal !important;
   }
 
   @include respond(tab-port) {
@@ -43,6 +47,7 @@
     font-size: 6rem;
     color: $color-primary;
     letter-spacing: 0.8rem;
+    font-weight: normal !important;
 
     @include respond(tab-port) {
       font-size: 4rem;
@@ -59,6 +64,7 @@
   font-size: 12rem;
   letter-spacing: 0.5rem;
   color: $color-primary;
+  font-weight: normal !important;
 }
 
 .heading-secondary--outline--orange {
@@ -66,6 +72,7 @@
   font-size: 12rem;
   letter-spacing: 0.5rem;
   color: $color-tertiary;
+  font-weight: normal !important;
 }
 
 .heading-tertiary {
@@ -73,6 +80,7 @@
   color: $color-primary;
   font-size: 6rem;
   letter-spacing: 0.4rem;
+  font-weight: normal !important;
 
   @include respond(tab-port) {
     font-size: 6rem;
@@ -92,6 +100,7 @@
   color: $color-primary;
   font-size: 8rem;
   letter-spacing: 0.5rem;
+  font-weight: normal !important;
 
   &--orange {
     color: $color-tertiary;
@@ -121,11 +130,10 @@
   font-family: 'superline-outlineitalic';
   font-size: 24rem;
   color: $color-primary;
+  font-weight: normal !important;
 }
 
 .steps__number--orange {
-  font-family: 'superline-outlineitalic';
-  font-size: 24rem;
   color: $color-tertiary;
 }
 
@@ -134,10 +142,10 @@
   color: $color-primary;
   font-size: 3rem;
   letter-spacing: 0.3rem;
+  font-weight: normal !important;
 }
 
 .steps__step-headline--orange {
-  font-family: 'superline-regular';
   color: $color-tertiary;
   font-size: 4rem;
   letter-spacing: 0.4rem;
