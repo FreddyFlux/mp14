@@ -65,11 +65,17 @@
   letter-spacing: 0.5rem;
   color: $color-primary;
   font-weight: normal !important;
+
+  @include respond(tab-port) {
+    font-size: 9rem;
+  }
+
+  @include respond(phone) {
+    font-size: 7rem;
+  }
 }
 
 .heading-secondary--outline--orange {
-  font-family: 'superline-outlineitalic';
-  font-size: 12rem;
   letter-spacing: 0.5rem;
   color: $color-tertiary;
   font-weight: normal !important;

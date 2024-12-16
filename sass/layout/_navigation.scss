@@ -36,10 +36,10 @@
       width: 5rem;
     }
 
-    @include respond(phone) {
-      top: 1rem;
-      right: 1rem;
-    }
+    // @include respond(phone) {
+    //   top: 1rem;
+    //   right: 1rem;
+    // }
   }
 
   &__background {

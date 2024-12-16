@@ -20,12 +20,12 @@
     position: absolute;
     @include centerAbsolute;
     width: 75%;
-    height: auto;
+    height: 85%;
     background-color: $color-black-dark-1;
     box-shadow: 0 2rem 4rem rgba($color-black, 0.2);
     border-radius: 3px;
     display: table;
-    overflow: hidden;
+    overflow: scroll;
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.25);
     transition: all 0.4s 0.2s;
@@ -113,14 +113,15 @@
     &:link,
     &:visited {
       color: $color-grey-light-2;
-      position: absolute;
+      border-radius: 50%;
+      position: fixed;
       top: 2.5rem;
       right: 2.5rem;
-      font-size: 3rem;
+      font-size: 5rem;
       text-decoration: none;
       display: inline-block;
       transition: all 0.2s;
-      line-height: 1;
+      line-height: 3;
     }
 
     &:hover {
@@ -172,7 +173,7 @@
       -webkit-hyphens: auto;
 
       @include respond(phone) {
-        font-size: 1.2rem;
+        font-size: 3rem;
         column-gap: 2rem;
         margin-bottom: 2rem;
       }
@@ -195,7 +196,7 @@
         position: absolute;
         top: 2.5rem;
         right: 2.5rem;
-        font-size: 3rem;
+        font-size: 6rem;
         text-decoration: none;
         display: inline-block;
         transition: all 0.2s;
