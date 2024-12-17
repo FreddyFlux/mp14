@@ -831,6 +831,12 @@ body {
 }
 .camps__box--mp14 {
   transition: transform 0.3s;
+  grid-column: 2/4;
+}
+@media only screen and (max-width: 37.5em) {
+  .camps__box--mp14 {
+    grid-column: 1/2;
+  }
 }
 .camps__box--mp14:hover {
   transform: translateY(-1.5rem) scale(1.03);

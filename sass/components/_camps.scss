@@ -61,6 +61,12 @@
     }
     &--mp14 {
       transition: transform 0.3s;
+      grid-column: 2 / 4;
+
+      @include respond(phone) {
+        grid-column: 1 / 2;
+      }
+
       &:hover {
         transform: translateY(-1.5rem) scale(1.03);
       }
