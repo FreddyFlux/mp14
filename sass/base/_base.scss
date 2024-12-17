@@ -6,6 +6,11 @@
   box-sizing: inherit;
 }
 
+*::selection {
+  background-color: $color-primary;
+  color: $color-black;
+}
+
 html {
   font-size: 62.5%; // 1rem = 10px
   font-family: 'Raleway';

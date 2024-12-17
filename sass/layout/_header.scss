@@ -21,6 +21,7 @@
 
   &__logo {
     height: 12rem;
+    z-index: 999;
 
     @include respond(tab-port) {
       height: 6rem;

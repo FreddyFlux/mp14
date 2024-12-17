@@ -12,7 +12,7 @@
     grid-column: 2 / 3;
     grid-row: 1 / -1;
 
-    @include respond(phone) {
+    @include respond(tab-port) {
       grid-column: 1/-1;
       grid-row: 2;
     }

@@ -41,6 +41,10 @@
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 
+  @include respond(tab-port) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   @include respond(phone) {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -60,7 +64,7 @@
   display: grid;
   grid-template-columns: 60% 40%;
 
-  @include respond(phone) {
+  @include respond(tab-port) {
     grid-template-columns: repeat(1, 1fr);
   }
 }
